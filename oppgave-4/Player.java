@@ -26,6 +26,9 @@ public class Player {
   public void setWeapon(){
     weapon = new Weapon();
   }
+  public void setWeapon(String type, int damage){
+    weapon = new Weapon(type, damage);
+  }
 
   public String getWeapon(){
     return this.weapon.getType();

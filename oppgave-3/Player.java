@@ -24,7 +24,7 @@ public class Player {
   }
 
   public void setWeapon(){
-    
+    this.weapon = new Weapon();
   }
 
   public String getWeapon(){

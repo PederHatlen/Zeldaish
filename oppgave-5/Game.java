@@ -16,7 +16,7 @@ public class Game {
     System.out.println("That's lucky indeed, you found a "+you.getWeapon()+"! It's a more powerful weapon, with "+you.getWeaponStats()+" damage!");
 
     Enemy enemy = new Enemy();
-    System.out.prinln("Oh no! It's a "+enemy.getType()+"! It's really dangerous. Quick, hit it with your "+you.getWeapon()+"!");
+    System.out.println("Oh no! It's a "+enemy.getType()+"! It's really dangerous. Quick, hit it with your "+you.getWeapon()+"!");
   }
 
 }

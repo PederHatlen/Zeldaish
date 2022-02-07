@@ -3,6 +3,7 @@ public class Game {
   public static void main(String[] args){
 
     Player you = new Player();
+  
     you.setName("Link");
     System.out.println("Hello "+you.getName()+"!");
     
